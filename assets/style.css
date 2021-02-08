@@ -5,3 +5,14 @@ body{
     align-items: center;
     padding: 10px;
 }
+
+#movie-display{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 3px solid red;
+    height: 500px;
+    width: 500px;
+    padding: 15px;
+}
