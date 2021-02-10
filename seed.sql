@@ -1,12 +1,12 @@
-TRUNCATE TABLE "Movies", "Movie_Details";
+-- TRUNCATE TABLE "Movies", "Movie_Details";
 
-INSERT INTO "Movies" (name) VALUES ('The Dark Knight');
-INSERT INTO "Movies" (name) VALUES ('The Phantom Menace');
-INSERT INTO "Movies" (name) VALUES ('Goodfellas');
-INSERT INTO "Movies" (name) VALUES ('The Godfather');
-INSERT INTO "Movies" (name) VALUES ('Avengers Infinity War');
-INSERT INTO "Movies" (name) VALUES ('Spiderman');
-INSERT INTO "Movies" (name) VALUES ('No Country For Old Men');
+-- INSERT INTO "Movies" (name) VALUES ('The Dark Knight');
+-- INSERT INTO "Movies" (name) VALUES ('The Phantom Menace');
+-- INSERT INTO "Movies" (name) VALUES ('Goodfellas');
+-- INSERT INTO "Movies" (name) VALUES ('The Godfather');
+-- INSERT INTO "Movies" (name) VALUES ('Avengers Infinity War');
+-- INSERT INTO "Movies" (name) VALUES ('Spiderman');
+-- INSERT INTO "Movies" (name) VALUES ('No Country For Old Men');
 
 
 -- INSERT INTO posts (userId, title, content, date) VALUES ((SELECT id from users where name='RubeusH'), 'Fianto Duri, the complete tutorial', 'Fianto Duri is a charm that was created to be combined with protective spells (Can be used with another person''s shield spell)(When used on something else creates a explosion). As we already knows the (i.e.) Shield Charm needs the caster to stay focused on the spell in order to continue protecting him, so Fianto Duri allows the caster to keep a charm “alive” while he does some other work or casts some other spells.', (now() - interval '4 hours'));

@@ -51,19 +51,19 @@ app.get('/movies/:id', async(req, res, next)=>{
                 <link rel='stylesheet' href='/assets/style.css'>
             </head>
             <body>
-                <h1>Movie Database</h1>
+                <h1><a href='/'>Movie Database</a></h1>
                 <ul>
                     ${
                         movies.map(
                             (movie)=>`
                                 <div id='movie-display'> 
-                                    <div>
+                                    <div class='movie-details'>
                                     ${movie.name}
                                     </div>
-                                    <div>
+                                    <div class='movie-details'>
                                     Rating: ${movie.rating} out of 10
                                     </div>
-                                    <div>
+                                    <div class='movie-details'>
                                         ${movie.description}
                                     </div>
                                 </div>

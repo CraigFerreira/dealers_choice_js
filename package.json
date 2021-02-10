@@ -19,6 +19,7 @@
   "homepage": "https://github.com/CraigFerreira/dealers_choice_js#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
     "pg": "^8.5.1"
   }
 }

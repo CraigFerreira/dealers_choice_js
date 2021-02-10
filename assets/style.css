@@ -16,3 +16,10 @@ body{
     width: 500px;
     padding: 15px;
 }
+
+.movie-details{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    width: 300px;
+}
